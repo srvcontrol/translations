@@ -1,0 +1,44 @@
+{
+    "no_apikey": "You don't have a registered API key.",
+    "success": "Success",
+    "error": "Error",
+    "usage": "Usage",
+    "invalid_id": "Sorry! That's an invalid server ID.\nView your servers with {prefix}",
+    "servers": {
+        "no_servers": "You don't have any servers.",
+        "your_servers": "Your {hostname} Servers"
+    },
+    "info": {
+        "start": "Start action was sent to your server.",
+        "stop": "Stop action was sent to your server.",
+        "restart": "Restart action was sent to your server.",
+        "kill": "Kill action was sent to your server.",
+        "s_info": "Server Information",
+        "no_perm": "You don't have permission to do this.\nIf you are a subuser to this server, you may not have the required permission.",
+        "reactions": "For 60 seconds, you may use reactions to control your server."
+    },
+    "send": {
+        "offline": "I'm sorry, that server is offline.",
+        "sent": "Command was successfully sent to the server."
+    },
+    "register": {
+        "register": "Register",
+        "already_registered": "You already have an API key registered.",
+        "registered": "Your API key was registered successfully.",
+        "sent_dm": "I've sent you a DM, the registering process will take place there.",
+        "sec_msg": "For security, the register process must take place here.",
+        "ask_key": "Please send me your API key.",
+        "invalid_key": "That API key is invalid.\nRegistering cancelled."
+    },
+    "unregister": {
+        "unregister": "Unregister",
+        "unregistered": "Your API key was unregistered successfully.\nYou can no longer use control commands in the guild where you ran the unregister command.",
+        "sent_dm": "I've sent you a DM, the unregistering process will take place there.",
+        "sec_msg": "For security, the unregister process must take place here.",
+        "ask_key": "Please send me your registered API key.",
+        "invalid_key": "That API key is invalid.\nUnregistering cancelled."
+    },
+    "lang": {
+        "name": "en" 
+    }
+}

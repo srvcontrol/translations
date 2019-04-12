@@ -1,0 +1,45 @@
+@@ -0,0 +1,44 @@
+{
+    "no_apikey": "No tienes una API key registrada.",
+    "success": "Éxito",
+    "error": "Error",
+    "usage": "Uso",
+    "invalid_id": "¡Lo siento! Esa es una ID inválida del servidor.\nVe tus servidores con {prefix}",
+    "servers": {
+        "no_servers": "No tienes ningún servidor.",
+        "your_servers": "Tus servidores de {hostname}"
+    },
+    "info": {
+        "start": "La acción de empezar ha sido enviada a tu servidor.",
+        "stop": "La acción de parar ha sido enviada a tu servidor",
+        "restart": "La acción de reiniciar ha sido enviada a tu servidor.",
+        "kill": "La acción de forzar cerrado ha sido enviada a tu servidor.",
+        "s_info": "Información del Servidor",
+        "no_perm": "No tienes permiso para hacer esto.\nSi eres un sub-usuario de este servidor, puedes que no tengas los permisos necesarios.",
+        "reactions": "Por 60 segundos, puedes usar las reacciones para controlar tu servidor."
+    },
+    "send": {
+        "offline": "Lo siento, el servidor esta offline",
+        "sent": "El comando fue enviado exitosamente a tu servidor."
+    },
+    "register": {
+        "register": "Registrar",
+        "already_registered": "Ya tienes una API key registrada.",
+        "registered": "Haz registrado la API key exitosamente.",
+        "sent_dm": "Te envié un MD, el proceso de registración se llevará acabo ahí.",
+        "sec_msg": "Por seguridad, el proceso de registración se llevará acabo aquí.",
+        "ask_key": "Porfavor mandame tu API key,",
+        "invalid_key": "Esa API key es inválida.\nRegistración cancelada."
+    },
+    "unregister": {
+        "unregister": "Cancelar registración",
+        "unregistered": "Se ha cancelado la registración de tu API key exitosamente.\nYa no puedes usar los comandos de control donde executaste el comando para cancelar la registración.",
+        "sent_dm": "Te envié un MD, el proceso para cancelar la registración se llevará acabo ahí.",
+        "sec_msg": "For security, el proceso para cancelar la registración se llevará acabo aquí.",
+        "ask_key": "Porfavor mandame tu API key registrada.",
+        "invalid_key": "Esa API key es inválida.\nCancelación de la registración cancelada."
+    },
+    "lang": {
+        "name": "es" 
+    }
+} 

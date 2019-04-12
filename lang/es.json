@@ -19,7 +19,7 @@
         "reactions": "Por 60 segundos, puedes usar las reacciones para controlar tu servidor."
     },
     "send": {
-        "offline": "Lo siento, el servidor esta offline",
+        "offline": "Lo siento, el servidor no esta en línea.",
         "sent": "El comando fue enviado exitosamente a tu servidor."
     },
     "register": {

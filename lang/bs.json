@@ -25,7 +25,7 @@
         "register": "Registracija",
         "already_registered": "Već imate registrovan API ključ.",
         "registered": "Vaš API ključ je uspješno registrovan.",
-        "sent_dm": "Poslali smo vam DM, proces regisracije će se nastaviti tamo.",
+        "sent_dm": "Poslali smo vam DM, proces registracije će se nastaviti tamo.",
         "sec_msg": "Registracija se iz sigurnosnih razloga mora voditi ovdje.",
         "ask_key": "Molimo da nam pošaljete svoj API ključ.",
         "invalid_key": "Uneseni API ključ nije validan.\nRegistracija prekinuta."

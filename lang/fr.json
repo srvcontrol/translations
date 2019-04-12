@@ -1,0 +1,44 @@
+{
+    "no_apikey": "Vous n'avez pas de clé API enregistrée.
+    "success": "Succès",
+    "error": "Erreur",
+    "usage": "Utilisation",
+    "invalid_id": "Désolé ! C'est un ID de serveur invalide.\nAfficher vos serveurs avec {prefix}",
+    "servers": {
+        "no_servers": "Vous n'avez pas de serveurs.",
+        "your_servers": "Vos {hostname} serveurs"
+    },
+    "info": {
+        "start": "L'action de démarrage a été envoyée à votre serveur.",
+        "stop": "L'action d'arrêt a été envoyée à votre serveur.",
+        "restart": "L'action de redémarrage a été envoyée à votre serveur.",
+        "kill": "L'action d'arrêt forcé a été envoyée à votre serveur.",
+        "s_info": "Informations du serveur",
+        "no_perm": "Vous n'avez pas la permission de le faire. Si vous êtes un sous-utilisateur de ce serveur, vous n'avez peut-être pas la permission requise.",
+        "reactions": "Pendant 60 secondes, vous pouvez utiliser les réactions pour contrôler votre serveur."
+    },
+    "send": {
+        "offline": "Je suis désolé, ce serveur est hors ligne.",
+        "sent": "La commande a été envoyée avec succès au serveur."
+    },
+    "register": {
+        "register": "S'inscrire",
+        "already_registered": "Vous avez déjà une clé API enregistrée.",
+        "registered": "Votre clé API a été enregistrée avec succès.",
+        "sent_dm": "Je vous ai envoyé un MP, le processus d'inscription aura lieu là-bas.",
+        "sec_msg": "Pour des raisons de sécurité, le processus d'enregistrement doit avoir lieu ici.",
+        "ask_key": "Veuillez m'envoyer votre clé API.",
+        "invalid_key": "Cette clé API n'est pas valide.\nL'enregistrement a été annulé."
+    },
+    "unregister": {
+        "unregister": "Se désinscrire",
+        "unregistered": "Votre clé API a été désenregistrée avec succès.\nVous ne pouvez plus utiliser les commandes de contrôle dans la guilde où vous avez lancé la commande unregister.",
+        "sent_dm": "Je vous ai envoyé un MP, le processus de désinscription aura lieu là-bas.",
+        "sec_msg": "Pour des raisons de sécurité, le processus de désinscription doit avoir lieu ici.",
+        "ask_key": "Veuillez m'envoyer votre clé API enregistrée.",
+        "invalid_key": "Cette clé API n'est pas valide. Désenregistrement annulé."
+    },
+    "lang": {
+        "name": "fr" 
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "no_apikey": "Nemate registrovan API ključ.",
+    "success": "Uspješno",
+    "error": "Greška",
+    "usage": "Upotreba",
+    "invalid_id": "Izvinite! Navedeni ID servera nije validan.\nPogledajte listu svojih servera sa {prefix}",
+    "servers": {
+        "no_servers": "Nemate servera.",
+        "your_servers": "Vaši {hostname} serveri"
+    },
+    "info": {
+        "start": "Naredba pokretanja je poslana na vaš server.",
+        "stop": "Naredba zaustavljanja je poslana na vaš server.",
+        "restart": "Naredba restartovanja je poslana na vaš server.",
+        "kill": "Naredba terminiranja je poslana na vaš server.",
+        "s_info": "Informacije o serveru",
+        "no_perm": "Nemate dovoljno dozvola za ovo.\nUkoliko ste subuser ovog servera, možda nemate odgovarajuću dozvolu.",
+        "reactions": "U sljedećih 60 sekundi možete koristiti reakcije za kontrolu svog servera."
+    },
+    "send": {
+        "offline": "Izvinjavamo se, taj server nije pokrenut.",
+        "sent": "Naredba uspješno poslana na server."
+    },
+    "register": {
+        "register": "Registracija",
+        "already_registered": "Već imate registrovan API ključ.",
+        "registered": "Vaš API ključ je uspješno registrovan.",
+        "sent_dm": "Poslali smo vam DM, proces registracije će se nastaviti tamo.",
+        "sec_msg": "Registracija se iz sigurnosnih razloga mora voditi ovdje.",
+        "ask_key": "Molimo da nam pošaljete svoj API ključ.",
+        "invalid_key": "Uneseni API ključ nije validan.\nRegistracija prekinuta."
+    },
+    "unregister": {
+        "unregister": "Odjavljivanje",
+        "unregistered": "Vaš API ključ je uspješno odjavljen.\nViše ne možete koristiti kontrolne naredbe na serveru sa kojeg ste se odjavili.",
+        "sent_dm": "Poslali smo vam DM, proces odjavljivanja će se nastaviti tamo.",
+        "sec_msg": "Odjavljivanje se iz sigurnosnih razloga mora voditi ovdje.",
+        "ask_key": "Molimo da nam pošaljete svoj registrovani API ključ.",
+        "invalid_key": "Uneseni API ključ nije validan.\nOdjavljivanje prekinuto."
+    },
+    "lang": {
+        "name": "bs" 
+    }
+}

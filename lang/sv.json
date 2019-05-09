@@ -1,0 +1,44 @@
+{
+    "no_apikey": "Du har inte en registrerad API-nyckel.",
+    "success": "Lyckad",
+    "error": "Fel",
+    "usage": "Använd",
+    "invalid_id": "Förlåt! Det är ett ogiltigt server-ID.\nSe dina servrar med {prefix}",
+    "servers": {
+        "no_servers": "Du har inga servrar.",
+        "your_servers": "Dina {hostname} servrar"
+    },
+    "info": {
+        "start": "Start åtgärden skickades till din server.",
+        "stop": "Stopp åtgärden skickades till din server.",
+        "restart": "Starta om åtgärden skickades till din server.",
+        "kill": "Döda åtgärden skickades till din server.",
+        "s_info": "Serverinformation",
+        "no_perm": "Du har inte behörighet att göra det här.\nOm du är en delanvändare till den här servern har du kanske inte behörighet.",
+        "reactions": "I 60 sekunder kan du använda reaktioner för att styra din server."
+    },
+    "send": {
+        "offline": "Jag är ledsen, den servern är offline.",
+        "sent": "Kommandot skickades framgångsrikt till servern."
+    },
+    "register": {
+        "register": "Registrera",
+        "already_registered": "Du har redan en API-nyckel registrerad.",
+        "registered": "Din API-nyckel har registrerats framgångsrikt.",
+        "sent_dm": "Jag har skickat till dig i DM, registreringsprocessen kommer att äga rum där.",
+        "sec_msg": "För säkerhet skull måste registreringsprocessen ske här.",
+        "ask_key": "Skicka mig din API-nyckel.",
+        "invalid_key": "Den API-nyckeln är ogiltig.\nRegistreringen avbröts. "
+    },
+    "unregister": {
+        "unregister": "Avregistrera",
+        "unregistered": "Din API-nyckel blev avregistrerad framgångsrikt.\nDu kan inte längre använda kontrollkommandon i guilden där du körde avregistrerings kommandot.",
+        "sent_dm": "Jag har skickat till dig i DM, avregistreringsprocessen kommer att äga rum där.",
+        "sec_msg": "För säkerhet skull måste avregistreringsprocessen ske här.",
+        "ask_key": "Skicka mig din registrerade API-nyckel.",
+        "invalid_key": "Den API-nyckeln är ogiltig.\nAvregistreringen avbröts"
+    },
+    "lang": {
+        "name": "sv" 
+    }
+}

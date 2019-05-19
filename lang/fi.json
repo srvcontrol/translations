@@ -1,0 +1,44 @@
+{
+    "no_apikey": "Sinulla ei ole rekisteröityä API-avainta.",
+    "success": "Onnistuneesti",
+    "error": "Virhe",
+    "usage": "Käyttö",
+    "invalid_id": "Anteeksi! Se on virheellinen server ID.\nTarkastele sinun servereitä: {prefix}",
+    "servers": {
+        "no_servers": "Sinulla ei ole servereitä.",
+        "your_servers": "Sinun {hostname} serverit"
+    },
+    "info": {
+        "start": "Aloita toiminta lähetettiin serveriin.",
+        "stop": "Lopeta toiminta lähetettiin serveriin.",
+        "restart": "Uudelleenkäynnistys toiminta lähetettiin serveriin.",
+        "kill": "Tappo toiminta lähetettiin serveriin.",
+        "s_info": "Serveri Tiedot",
+        "no_perm": "Sinulla ei ole lupaa tehdä niin.\nJos olet tämän käyttäjän alikäyttäjä, sinulla ei ehkä ole tarvittavaa lupaa.",
+        "reactions": "60 sekuntia voit käyttää reaktioita serverin ohjaamiseen."
+    },
+    "send": {
+        "offline": "Olen pahoillani, serveri on offline-tilassa.",
+        "sent": "Komento lähetettiin onnistuneesti serveriin."
+    },
+    "register": {
+        "register": "Registeri",
+        "already_registered": "Sinulla on jo API-avain rekisteröity.",
+        "registered": "API-avain rekisteröitiin onnistuneesti.",
+        "sent_dm": "Olen lähettänyt sinulle DM, rekisteröinti tapahtuu siellä.",
+        "sec_msg": "Turvallisuuden kannalta rekisteriprosessin on tapahduttava täällä.",
+        "ask_key": "Lähetä minulle API-avain.",
+        "invalid_key": "Tämä API-avain on virheellinen.\nRekisteröinti peruutettu."
+    },
+    "unregister": {
+        "unregister": "Poista rekisteröinti",
+        "unregistered": "API-avain on poistettu onnistuneesti.\nEt voi enää käyttää ohjauskomentoja siällä missä poistit API-avaimen.",
+        "sent_dm": "Olen lähettänyt sinulle DM, pois rekisteröintiprosessi tapahtuu siellä.",
+        "sec_msg": "Turvallisuuden kannalta rekisteröinnin purkamisen on tapahduttava täällä.",
+        "ask_key": "Lähetä minulle rekisteröitynyt API-avain.",
+        "invalid_key": "Tämä API-avain on virheellinen.\nPois rekisteröityminen peruutettu."
+    },
+    "lang": {
+        "name": "fi" 
+    }
+}

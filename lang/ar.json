@@ -3,7 +3,7 @@
     "success": "تم بنجاح",
     "error": "حدث خطأ",
     "usage": "الاستخدام",
-    "invalid_id": "آسف، هذا اسم غير صالح الخادم \n {prefix}لإظهار جميع خوادمك",
+    "invalid_id": "آسف، هذا اسم غير صالح للخادم \n {prefix}لإظهار جميع خوادمك",
     "servers": {
         "no_servers": "أنت ليس لديك أي خوادم",
         "your_servers": "{hostname} خوادمك هي"
@@ -23,7 +23,7 @@
     },
     "register": {
         "register": "API إنشاء مفتاح",
-        "already_registered": "لقد أنشأت مفتاح API",
+        "already_registered": " بالفعل API لقد أنشأت مفتاح",
         "registered": "أنشئ بنجاح API مفتاح",
         "sent_dm": "لقد أرسلت إليك رسالة ستتم عملية الإنشاء من هناك",
         "sec_msg": "لأسباب أمنية ستتم عملية الإنشاء هنا",

@@ -6,7 +6,7 @@
     "invalid_id": "Désolé ! C'est un ID de serveur invalide.\nAfficher vos serveurs avec {prefix}",
     "servers": {
         "no_servers": "Vous n'avez pas de serveurs.",
-        "your_servers": "Vos {hostname} serveurs"
+        "your_servers": "Vos serveurs {hostname} :"
     },
     "info": {
         "start": "L'action de démarrage a été envoyée à votre serveur.",

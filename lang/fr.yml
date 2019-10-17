@@ -1,0 +1,60 @@
+lang:
+  name: 'fr'
+
+messages:
+  global:
+    success: 'Succès !'
+    warning: 'Avertissement !'
+    error: 'Oops!'
+    cancelled: 'Annulé'
+    need_id: 'Vous devez fournir l\'ID d'un serveur.'
+    invalid_id: "Ce n'était pas un ID valide."
+    not_registered: "Vous ne semblez pas avoir de clé API enregistrée auprès de SRVControl."
+    requested_by: 'Demandé par {tag}'
+    cancel:
+      user: 'Vous avez annulé cette action.'
+      invalid: 'Annulé en raison d'une réponse invalide.'
+      time: 'L\'action a été annulée parce qu'aucune réponse valide n\'a été reçue dans les 60 secondes.'
+    panel:
+      unable_to_connect: 'Impossible de se connecter à votre panel à l\'URL {url}.\nVotre clé API est-elle valide ? L'URL de votre panel est-elle correcte ?'
+
+  register:
+    private: 'Pour préserver la confidentialité de votre clé API, l'enregistrement se fera en message privé.'
+    dm: 'Veuillez m'envoyer votre clé API ou envoyez cancel pour annuler l'enregistrement.'
+    cancelled: 'Vous avez annulé votre inscription à SRVControl'
+    success: "L'enregistrement a été un succès dans la guilde '{guild}'."
+
+  unregister:
+    confirm: 'Ceci supprimera votre clé API Pterodactyl de SRVControl et vous ne pourrez plus exécuter aucune commande liée au contrôle.\n\nDites `confirm` pour procéder ou cancel pour `annuler` dans les 60 secondes.'
+    success: 'Votre clé API a été supprimée de SRVControl avec succès.'
+    invalid: 'Vous avez spécifié une clé d\'API invalide. Avez-vous configuré correctement l\'URL de votre panel sur le tableau de bord ?'
+
+  power:
+    power: 'État : '
+    reactions: 'Utilisez les réactions ci-dessous pour commander vos serveurs.'
+    current_state: 'État actuel'
+    actions:
+      start: 'The `START` power action was sent to `{id}` successfully.'
+      stop: 'The `STOP` power action was sent to `{id} successfully`.'
+      restart: 'The `RESTART` power action was send to `{id}` successfully.'
+      kill:
+        warning: 'Terminating a server unexpectedly may cause damage to the server.\n\nSay `confirm` to proceed or `cancel` to cancel within 60 seconds.'
+        success: 'The `KILL` power action was sent to `{id}` successfully.'
+
+  send:
+    need_cmd: 'Vous devez fournir une commande à envoyer au serveur.'
+    offline: 'Vous ne pouvez envoyer des commandes qu'aux serveurs qui sont en ligne.'
+    success: 'La commande `{command}` a été envoyée à `{id}` avec succès.'
+
+  servers:
+  no_servers: "Vous ne semblez pas avoir de serveurs."
+  your_servers: "Serveurs {host} de {user}"
+
+  info:
+    server: 'Serveur : '
+    relation: 'Relation'
+    relations:
+      owner: 'Propriétaire'
+      subuser: 'Sous-utilisateur'
+    disk: 'Espace disque'
+    actions: 'Actions'

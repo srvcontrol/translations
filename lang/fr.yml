@@ -44,8 +44,8 @@ messages:
     success: 'La commande `{command}` a été envoyée à `{id}` avec succès.'
 
   servers:
-  no_servers: 'Vous ne semblez pas avoir de serveurs.'
-  your_servers: 'Serveurs {host} de {user}'
+    no_servers: 'Vous ne semblez pas avoir de serveurs.'
+    your_servers: 'Serveurs {host} de {user}'
 
   info:
     server: 'Serveur : '

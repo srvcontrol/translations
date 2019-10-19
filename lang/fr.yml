@@ -1,6 +1,3 @@
-lang:
-  name: 'fr'
-
 messages:
   global:
     success: 'Succès !'

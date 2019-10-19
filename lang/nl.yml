@@ -44,8 +44,8 @@ messages:
     success: 'Het commando `{command}` is succesvol naar `{id}` gestuurd.'
 
   servers:
-  no_servers: 'Je lijkt geen servers te hebben.'
-  your_servers: "{user}'s {host} Servers"
+    no_servers: 'Je lijkt geen servers te hebben.'
+    your_servers: "{user}'s {host} Servers"
 
   info:
     server: 'Server: '

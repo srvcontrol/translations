@@ -1,6 +1,3 @@
-lang:
-  name: 'nl'
-
 messages:
   global:
     success: 'Gelukt!'

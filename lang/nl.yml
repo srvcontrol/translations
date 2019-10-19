@@ -5,8 +5,8 @@ messages:
     error: 'Oeps!'
     cancelled: 'Geannuleerd'
     need_id: 'Je moet de ID van een server opgeven.'
-    invalid_id: "Dat is geen geldige ID."
-    not_registered: "Je lijkt geen API-sleutel te hebben geregistreerd bij SRVControl."
+    invalid_id: 'Dat is geen geldige ID.'
+    not_registered: 'Je lijkt geen API-sleutel te hebben geregistreerd bij SRVControl.'
     requested_by: 'Aangevraagd door {tag}'
     cancel:
       user: 'Je hebt deze actie geannuleerd.'
@@ -22,7 +22,7 @@ messages:
     success: "Je hebt succesvol de guild '{guild}' geregistreerd."
 
   unregister:
-    confirm: 'Dit zal je Pterodactyl API sleutel uit SRVControl verwijderen en je zult niet in staat zijn om server bedien gerelateerde commando's uit te voeren.\n\nStuur `confirm` om verder te gaan of stuur `cancel` om te annuleren binnen 60 seconden.'
+    confirm: "Dit zal je Pterodactyl API sleutel uit SRVControl verwijderen en je zult niet in staat zijn om server bedien gerelateerde commando's uit te voeren.\n\nStuur `confirm` om verder te gaan of stuur `cancel` om te annuleren binnen 60 seconden."
     success: 'Je API-sleutel is succesvol uit SRVControl verwijderd.'
     invalid: 'Je hebt een ongeldige API-sleutel opgegeven.\nHeb je de URL van je panel correct ingesteld op het dashboard?'
 
@@ -40,11 +40,11 @@ messages:
 
   send:
     need_cmd: 'Je moet een commando geven om naar de server te sturen.'
-    offline: 'Je kunt alleen commando''s sturen naar servers die online zijn.'
+    offline: "Je kunt alleen commando's sturen naar servers die online zijn."
     success: 'Het commando `{command}` is succesvol naar `{id}` gestuurd.'
 
   servers:
-  no_servers: "Je lijkt geen servers te hebben."
+  no_servers: 'Je lijkt geen servers te hebben.'
   your_servers: "{user}'s {host} Servers"
 
   info:

@@ -7,7 +7,7 @@ messages:
     need_id: 'Necesitas usar la ID de un servidor.'
     invalid_id: "Eso no fué una ID válida."
     not_registered: "No parece que tengas una clave API con SRVControl."
-    requested_by: 'Requerido por {tag}'
+    requested_by: 'Pedido por {tag}'
     cancel:
       user: 'Cancelaste esta acción.'
       invalid: 'Cancelado gracias a una respuesta inválida.'
@@ -22,7 +22,7 @@ messages:
     success: "La registración fué exitosa en el grupo '{guild}'."
 
   unregister:
-    confirm: 'Esto eliminará tu clave API en Pterodactyl para SRVControl y no podrás enviar ningún comando para controlarlo.\n\nEnvía `confirm` para proseguir o cancel para cancelar` en los próximos 60 segundos.'
+    confirm: 'Esto eliminará tu clave API en Pterodactyl para SRVControl y no podrás enviar ningún comando para controlarlo.\n\nEnvía `confirm` para proseguir o cancel para cancelar` durante los próximos 60 segundos.'
     success: 'Tu clave API se ha borrado en SRVControl exitosamente.'
     invalid: 'Haz especificado una clave API inválida.\n¿Configuraste correctamente la URL del panel en el panel de control?'
 
@@ -31,12 +31,12 @@ messages:
     reactions: 'Usa las reacciones para controlar el poder de tu servidor.'
     current_state: 'Estado Actual'
     actions:
-      start: 'La acción de `START` fué enviada exitosamente a `{id}`.'
-      stop: 'La acción de `STOP` fué enviada exitosamente a `{id}`.'
-      restart: 'La acción de `RESTART` fué enviada exitosamente a `{id}`.'
+      start: 'La acción `START` fué enviada exitosamente a `{id}`.'
+      stop: 'La acción `STOP` fué enviada exitosamente a `{id}`.'
+      restart: 'La acción `RESTART` fué enviada exitosamente a `{id}`.'
       kill:
-        warning: 'Parar un servidor inesperadamente puede causarle daño.\n\nEnvía `confirm` para proceder o `cancel` para cancelar en los próximos 60 segundos.'
-        success: 'La acción de `KILL` fué enviada exitosamente a `{id}`.'
+        warning: 'Parar un servidor inesperadamente puede causarle daño.\n\nEnvía `confirm` para proceder o `cancel` para cancelar durante los próximos 60 segundos.'
+        success: 'La acción `KILL` fué enviada exitosamente a `{id}`.'
 
   send:
     need_cmd: 'Tienes que poner un comando para mandar al servidor.'

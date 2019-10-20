@@ -16,6 +16,7 @@ messages:
       unable_to_connect: 'Unable to connect to your panel at {url}.\nIs your API key valid? Is your panel URL correct?'
 
   register:
+    already_registered: 'You already have an API key registered with SRVControl.'
     private: 'To keep your API key private, registering will take place in DM.'
     dm: 'Please send me your API key or send cancel to cancel registering.'
     cancelled: 'You have cancelled registering with SRVControl'

@@ -25,7 +25,6 @@ messages:
   unregister:
     confirm: "Dit zal je Pterodactyl API sleutel uit SRVControl verwijderen en je zult niet in staat zijn om server bedien gerelateerde commando's uit te voeren.\n\nStuur `confirm` om verder te gaan of stuur `cancel` om te annuleren binnen 60 seconden."
     success: 'Je API-sleutel is succesvol uit SRVControl verwijderd.'
-    invalid: 'Je hebt een ongeldige API-sleutel opgegeven.\nHeb je de URL van je panel correct ingesteld op het dashboard?'
 
   power:
     power: 'Power: '

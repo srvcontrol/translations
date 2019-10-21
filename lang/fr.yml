@@ -20,11 +20,11 @@ messages:
     dm: "Veuillez m'envoyer votre clé API ou envoyez cancel pour annuler l'enregistrement."
     cancelled: 'Vous avez annulé votre inscription à SRVControl'
     success: "L'enregistrement a été un succès dans la guilde '{guild}'."
+    invalid: "Vous avez spécifié une clé d'API invalide. Avez-vous configuré correctement l'URL de votre panel sur le tableau de bord ?"
 
   unregister:
     confirm: 'Ceci supprimera votre clé API Pterodactyl de SRVControl et vous ne pourrez plus exécuter aucune commande liée au contrôle.\n\nDites `confirm` pour procéder ou cancel pour `annuler` dans les 60 secondes.'
     success: 'Votre clé API a été supprimée de SRVControl avec succès.'
-    invalid: "Vous avez spécifié une clé d'API invalide. Avez-vous configuré correctement l'URL de votre panel sur le tableau de bord ?"
 
   power:
     power: 'État : '

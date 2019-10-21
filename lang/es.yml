@@ -21,11 +21,11 @@ messages:
     dm: 'Por favor mándame tu clave API o envía "cancel" para cancelar la registración.'
     cancelled: 'Haz cancelado la registración en SRVControl'
     success: "La registración fué exitosa en el grupo '{guild}'."
+    invalid: 'Haz especificado una clave API inválida.\n¿Configuraste correctamente la URL del panel en el panel de control?'
 
   unregister:
     confirm: 'Esto eliminará tu clave API en Pterodactyl para SRVControl y no podrás enviar ningún comando para controlarlo.\n\nEnvía `confirm` para proseguir o cancel para cancelar` durante los próximos 60 segundos.'
     success: 'Tu clave API se ha borrado en SRVControl exitosamente.'
-    invalid: 'Haz especificado una clave API inválida.\n¿Configuraste correctamente la URL del panel en el panel de control?'
 
   power:
     power: 'Poder: '

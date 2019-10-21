@@ -19,6 +19,7 @@ messages:
       unable_to_connect: 'Kan geen verbinding maken met het paneel op {url}.\nIs je API-sleutel geldig? Is de paneel URL van je paneel correct?'
 
   register:
+    dm_failed: 'Ik kon je geen DM sturen. Zorg ervoor dat je directe berichten aan staan.'
     already_registered: 'Je hebt al een API-sleutel geregistreerd bij SRVControl.'
     private: 'Om je API-sleutel privé te houden, vindt de registratie plaats in DM.'
     dm: 'Stuur je API-sleutel of stuur cancel om de registratie te annuleren.'

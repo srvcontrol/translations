@@ -17,16 +17,17 @@ messages:
 
   register:
     already_registered: 'You already have an API key registered with SRVControl.'
+    dm_failed: 'Failed to send you a DM. Make sure you have direct messages enabled.'
     private: 'To keep your API key private, registering will take place in DM.'
     dm: 'Please send me your API key or send cancel to cancel registering.'
     cancelled: 'You have cancelled registering with SRVControl'
     success: "Registering was successful in the guild '{guild}'."
-
+    invalid: 'You specified an invalid API key.\nDid you set your panel URL correctly on the dashboard?'
+  
   unregister:
     confirm: 'This will remove your Pterodactyl API key from SRVControl and you won''t be able to run any control related commands.\n\nSay `confirm` to proceed or cancel to `cancel` within 60 seconds.'
     success: 'Your API key was removed from SRVControl successfully.'
-    invalid: 'You specified an invalid API key.\nDid you set your panel URL correctly on the dashboard?'
-
+    
   power:
     power: 'Power: '
     reactions: 'Use the reactions below to control your servers power.'

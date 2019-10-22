@@ -17,6 +17,7 @@ messages:
 
   register:
     already_registered: 'Ya tienes una clave API registrada con SRVControl.'
+    dm_failed: 'Error al enviarte un MD. Asegúrate que tienes los mensajes directos habilitados.'
     private: 'Para mantener tu clave API privada, el proceso de registración pasará en tus MD.'
     dm: 'Por favor mándame tu clave API o envía "cancel" para cancelar la registración.'
     cancelled: 'Haz cancelado la registración en SRVControl'

@@ -1,51 +1,53 @@
 messages:
   global:
     success: 'Succès !'
-    warning: 'Avertissement !'
+    warning: 'Warning !'
     error: 'Oops!'
-    cancelled: 'Annulé'
+    cancelled: 'Annulé '
     need_id: "Vous devez fournir l'ID d'un serveur."
-    invalid_id: "Ce n'était pas un ID valide."
-    not_registered: 'Vous ne semblez pas avoir de clé API enregistrée auprès de SRVControl.'
+    invalid_id: "Ce n'est pas un ID valide"
+    not_registered: "Vous ne semblez pas avoir une clé API enregistrée avec SRVControl."
     requested_by: 'Demandé par {tag}'
     cancel:
       user: 'Vous avez annulé cette action.'
-      invalid: "Annulé en raison d'une réponse invalide."
-      time: "L'action a été annulée parce qu'aucune réponse valide n'a été reçue dans les 60 secondes."
+      invalid: "Annulé en raison d'une réponse non valide."
+      time: "L'action a été annulée car aucune réponse valide n'a été reçue dans les 60 secondes."
     panel:
-      unable_to_connect: "Impossible de se connecter à votre panel à l'URL {url}.\nVotre clé API est-elle valide ? L'URL de votre panel est-elle correcte ?"
+      unable_to_connect: "Impossible de se connecter à votre panneau à {url}.\n Votre clé API est-elle valide ? L'URL de votre panneau est-elle correcte ?"
 
   register:
-    private: "Pour préserver la confidentialité de votre clé API, l'enregistrement se fera en message privé."
-    dm: "Veuillez m'envoyer votre clé API ou envoyez cancel pour annuler l'enregistrement."
+    already_registered: "Vous disposez déjà d'une clé API enregistrée auprès de SRVControl."
+    dm_failed: 'Impossible de vous envoyer un DM. Assurez-vous que les messages directs sont activés.'
+    private: "Pour garder votre clé API privée, l'enregistrement aura lieu dans DM."
+    dm: "Veuillez m'envoyer votre clé API ou envoyer annuler pour annuler l'enregistrement."
     cancelled: 'Vous avez annulé votre inscription à SRVControl'
-    success: "L'enregistrement a été un succès dans la guilde '{guild}'."
-    invalid: "Vous avez spécifié une clé d'API invalide. Avez-vous configuré correctement l'URL de votre panel sur le tableau de bord ?"
-
+    success: "L'inscription a réussi dans la guilde '{guild}'."
+    invalid: "Vous avez spécifié une clé API non valide.\nAvez-vous correctement défini l'URL de votre panneau sur le tableau de bord ?"
+  
   unregister:
-    confirm: 'Ceci supprimera votre clé API Pterodactyl de SRVControl et vous ne pourrez plus exécuter aucune commande liée au contrôle.\n\nDites `confirm` pour procéder ou cancel pour `annuler` dans les 60 secondes.'
+    confirm: "Cela supprimera votre clé API Pterodactyl de SRVControl et vous ne pourrez exécuter aucune commande liée au contrôle.\n\nSay `confirm` pour continuer ou annuler `cancel` dans les 60 secondes."
     success: 'Votre clé API a été supprimée de SRVControl avec succès.'
-
+    
   power:
-    power: 'État : '
-    reactions: 'Utilisez les réactions ci-dessous pour commander vos serveurs.'
+    power: 'Allumer: '
+    reactions: 'Utilisez les réactions ci-dessous pour contrôler allumer vos serveurs.'
     current_state: 'État actuel'
     actions:
-      start: 'The `START` power action was sent to `{id}` successfully.'
-      stop: 'The `STOP` power action was sent to `{id} successfully`.'
-      restart: 'The `RESTART` power action was send to `{id}` successfully.'
+      start: "L'allumage pour le serveur n°`{id}` a reussi !"
+      stop: "L'arret du serveur n°`{id} a reussi` a reussi !"
+      restart: "Le redémarrage du serveur n°`{id}` a reussi !"
       kill:
-        warning: 'Terminating a server unexpectedly may cause damage to the server.\n\nSay `confirm` to proceed or `cancel` to cancel within 60 seconds.'
-        success: 'The `KILL` power action was sent to `{id}` successfully.'
+        warning: "L'arrêt inattendu d'un serveur peut endommager le serveur.\n\nSay `confirm` pour procéder ou `cancel` pour annuler dans les 60 secondes."
+        success: "l'arret forcer du serveur n°`{id}` a reussi."
 
   send:
     need_cmd: 'Vous devez fournir une commande à envoyer au serveur.'
-    offline: "Vous ne pouvez envoyer des commandes qu'aux serveurs qui sont en ligne."
-    success: 'La commande `{command}` a été envoyée à `{id}` avec succès.'
+    offline: "Vous ne pouvez envoyer des commandes qu'aux serveurs en ligne."
+    success: 'La commande `{command}` a été envoyé à `{id}` avec succès !'
 
   servers:
-    no_servers: 'Vous ne semblez pas avoir de serveurs.'
-    your_servers: 'Serveurs {host} de {user}'
+    no_servers: "Vous ne semblez pas avoir de serveurs."
+    your_servers: "Le(s) Serveur(s) de {user}"
 
   info:
     server: 'Serveur : '

@@ -1,0 +1,59 @@
+messages:
+  global:
+    success: '¡Éxito!'
+    warning: '¡Alerta!'
+    error: '¡Oops!'
+    cancelled: 'Cancelado'
+    need_id: 'Necesitas usar la ID de un servidor.'
+    invalid_id: "Eso no fué una ID válida."
+    not_registered: "No parece que tengas una clave API con SRVControl."
+    requested_by: 'Pedido por {tag}'
+    cancel:
+      user: 'Cancelaste esta acción.'
+      invalid: 'Cancelado gracias a una respuesta inválida.'
+      time: 'La acción fue cancelada ya que no se recibio una respuesta válida en 60 segundos.'
+    panel:
+      unable_to_connect: 'Imposible conectarse al panel en {url}.\n¿Tu clave API es válida? ¿El URL de tu panel es correcto?'
+
+  register:
+    already_registered: 'Ya tienes una clave API registrada con SRVControl.'
+    dm_failed: 'Error al enviarte un MD. Asegúrate que tienes los mensajes directos habilitados.'
+    private: 'Para mantener tu clave API privada, el proceso de registración pasará en tus MD.'
+    dm: 'Por favor mándame tu clave API o envía "cancel" para cancelar la registración.'
+    cancelled: 'Haz cancelado la registración en SRVControl'
+    success: "La registración fué exitosa en el grupo '{guild}'."
+    invalid: 'Haz especificado una clave API inválida.\n¿Configuraste correctamente la URL del panel en el panel de control?'
+
+  unregister:
+    confirm: 'Esto eliminará tu clave API en Pterodactyl para SRVControl y no podrás enviar ningún comando para controlarlo.\n\nEnvía `confirm` para proseguir o cancel para cancelar` durante los próximos 60 segundos.'
+    success: 'Tu clave API se ha borrado en SRVControl exitosamente.'
+
+  power:
+    power: 'Poder: '
+    reactions: 'Usa las reacciones para controlar el poder de tu servidor.'
+    current_state: 'Estado Actual'
+    actions:
+      start: 'La acción `START` fué enviada exitosamente a `{id}`.'
+      stop: 'La acción `STOP` fué enviada exitosamente a `{id}`.'
+      restart: 'La acción `RESTART` fué enviada exitosamente a `{id}`.'
+      kill:
+        warning: 'Parar un servidor inesperadamente puede causarle daño.\n\nEnvía `confirm` para proceder o `cancel` para cancelar durante los próximos 60 segundos.'
+        success: 'La acción `KILL` fué enviada exitosamente a `{id}`.'
+
+  send:
+    need_cmd: 'Tienes que poner un comando para mandar al servidor.'
+    offline: 'Solo puedes mandar comandos a servidores que estan en línea.'
+    success: 'El comando `{command}` fue enviado exitosamente a `{id}`.'
+
+  servers:
+    no_servers: "Parace que no tienes servidores."
+    your_servers: "Servidores de {user} en {host}"
+
+  info:
+    server: 'Servidor: '
+    relation: 'Relación'
+    relations:
+      owner: 'Dueño'
+      subuser: 'Sub-usuario'
+    disk: 'Espacio en el disco'
+    actions: 'Acciones'

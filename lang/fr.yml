@@ -1,0 +1,59 @@
+messages:
+  global:
+    success: 'Succès !'
+    warning: 'Warning !'
+    error: 'Oops!'
+    cancelled: 'Annulé '
+    need_id: "Vous devez fournir l'ID d'un serveur."
+    invalid_id: "Ce n'est pas un ID valide"
+    not_registered: "Vous ne semblez pas avoir une clé API enregistrée avec SRVControl."
+    requested_by: 'Demandé par {tag}'
+    cancel:
+      user: 'Vous avez annulé cette action.'
+      invalid: "Annulé en raison d'une réponse non valide."
+      time: "L'action a été annulée car aucune réponse valide n'a été reçue dans les 60 secondes."
+    panel:
+      unable_to_connect: "Impossible de se connecter à votre panneau à {url}.\n Votre clé API est-elle valide ? L'URL de votre panneau est-elle correcte ?"
+
+  register:
+    already_registered: "Vous disposez déjà d'une clé API enregistrée auprès de SRVControl."
+    dm_failed: 'Impossible de vous envoyer un DM. Assurez-vous que les messages directs sont activés.'
+    private: "Pour garder votre clé API privée, l'enregistrement aura lieu dans DM."
+    dm: "Veuillez m'envoyer votre clé API ou envoyer annuler pour annuler l'enregistrement."
+    cancelled: 'Vous avez annulé votre inscription à SRVControl'
+    success: "L'inscription a réussi dans la guilde '{guild}'."
+    invalid: "Vous avez spécifié une clé API non valide.\nAvez-vous correctement défini l'URL de votre panneau sur le tableau de bord ?"
+  
+  unregister:
+    confirm: "Cela supprimera votre clé API Pterodactyl de SRVControl et vous ne pourrez exécuter aucune commande liée au contrôle.\n\nSay `confirm` pour continuer ou annuler `cancel` dans les 60 secondes."
+    success: 'Votre clé API a été supprimée de SRVControl avec succès.'
+    
+  power:
+    power: 'Allumer: '
+    reactions: 'Utilisez les réactions ci-dessous pour contrôler allumer vos serveurs.'
+    current_state: 'État actuel'
+    actions:
+      start: "L'allumage pour le serveur n°`{id}` a reussi !"
+      stop: "L'arret du serveur n°`{id} a reussi` a reussi !"
+      restart: "Le redémarrage du serveur n°`{id}` a reussi !"
+      kill:
+        warning: "L'arrêt inattendu d'un serveur peut endommager le serveur.\n\nSay `confirm` pour procéder ou `cancel` pour annuler dans les 60 secondes."
+        success: "l'arret forcer du serveur n°`{id}` a reussi."
+
+  send:
+    need_cmd: 'Vous devez fournir une commande à envoyer au serveur.'
+    offline: "Vous ne pouvez envoyer des commandes qu'aux serveurs en ligne."
+    success: 'La commande `{command}` a été envoyé à `{id}` avec succès !'
+
+  servers:
+    no_servers: "Vous ne semblez pas avoir de serveurs."
+    your_servers: "Le(s) Serveur(s) de {user}"
+
+  info:
+    server: 'Serveur : '
+    relation: 'Relation'
+    relations:
+      owner: 'Propriétaire'
+      subuser: 'Sous-utilisateur'
+    disk: 'Espace disque'
+    actions: 'Actions'

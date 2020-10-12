@@ -39,7 +39,7 @@ messages:
         kill:
           warning:
             - 'Als je de server onverwachts uitzet, kunnen er problemen voor komen.'
-            - 'Zeg `confirm' om door te gaan of 'cancel` om deze actie binnen 60 seconden te annuleren.'
+            - 'Zeg `confirm' om door te gaan of `cancel` om deze actie binnen 60 seconden te annuleren.'
           success: 'Het kill signaal is naar de server verzonden.'
 
     register:

@@ -1,0 +1,89 @@
+id: en
+
+messages:
+  global:
+    titles:
+      success: 'Success!'
+      warning: 'Warning!'
+      oops: 'Oops!'
+      cancelled: 'Cancelled'
+      prompt: 'Prompt'
+
+    cancelled:
+      user: 'You have cancelled this action.'
+      invalid: 'You provided an invalid response.'
+      time: 'You failed to provide a valid response in 60 seconds.'
+
+    missing_id: 'Please provide the ID or name of a server.'
+    invalid_id: "It looks like that server doesn't exist"
+    not_registered: "You don't have an API key registered in this server."
+
+  commands:
+    power:
+      power: 'Power'
+      use_reactions: 'Use the reactions below to control power for this server.'
+      controlling_power: 'Controlling power via {panel}'
+      state:
+        starting: 'Starting'
+        stopping: 'Stopping'
+        running: 'Running'
+        on: 'Online'
+        off: 'Offline'
+      signal:
+        start:
+          success: 'Start signal was sent to the server.'
+        stop:
+          success: 'Stop signal was sent to the server.'
+        restart:
+          success: 'Restart signal was sent to the server.'
+        kill:
+          warning:
+            - 'Terminating a server unexpectedly may cause damage to it.'
+            - 'Say `confirm` to proceed or `cancel` to cancel this action within 60 seconds.'
+          success: 'Kill signal was sent to the server.'
+
+    register:
+      registering: 'Registering'
+      already_registered: 'You already have an API key registered in this server.'
+      private: 'To keep your API key private, registering will take place in DM.'
+      ask_for_key: 'Please send me your API key or send `cancel` to cancel registering.'
+      dm_failed:
+        - 'I was unable to DM you.'
+        - 'Do you have Direct Messages enabled?'
+      registered: "You have registered with SRVControl in the server '{server}'."
+      invalid_key:
+        - 'It looks like that API key is invalid!'
+        - 'Is the domain for your panel correct? [Click here to check.](https://app.srvcontrol.xyz/manage/{id})'
+      cancelled: "You have cancelled registering with SRVControl in the server '{server}'."
+    send:
+      need_command: 'Please provide a command to send to the server.'
+      command_sent: 'The command was sent to the server successfully.'
+      command_error: 'I was unable to send the command to your server.'
+    servers:
+      your_servers: 'Your Servers'
+      viewing_server: 'Viewing server {current} of {total} via {panel}'
+      cpu:
+        core: 'core'
+        cores: 'cores'
+      disk_space: 'Disk Space'
+      relation:
+        relation: 'Relation'
+        owner: 'Owner'
+        subuser: 'Subuser'
+      actions: 'Actions'
+      no_servers: "You don't appear to have any servers."
+    unregister:
+      server:
+        warning:
+          - "This will remove your Pterodactyl API key from SRVControl **in this server** and you won't be able to run any control related commands here in the future unless you register again."
+          - 'Say `confirm` to proceed or `cancel` to cancel this action within 60 seconds.'
+          - 'To remove your API keys in all servers, re-run this command using {command}.'
+        success: 'You have removed your API key from SRVControl in this server.'
+      global:
+        warning:
+          - "This wil remove your Pterodactyl API keys from SRVControl **in all servers** and you won't be able to run any control related commands in the future unless you register again."
+          - 'Say `confirm` to proceed or `cancel` to cancel this action within 60 seconds.'
+        success: 'You have successfully removed all your API keys from SRVControl.'
+      not_registered:
+        - "You don't have an API key registered in this server."
+        - "If you'd like to remove all your API keys from SRVControl, re-run this command using {command}."

@@ -1,0 +1,89 @@
+id: fr
+
+messages:
+  global:
+    titles:
+      success: 'Succès !'
+      warning: 'Avertissement !'
+      oops: 'Oups !'
+      cancelled: 'Annulé'
+      prompt: 'Prompt'
+
+    cancelled:
+      user: 'Vous avez annulé cette action.'
+      invalid: 'Vous avez fourni une réponse non valable.'
+      time: "Vous n'avez pas fourni une réponse valable en 60 secondes."
+
+    missing_id: "Veuillez fournir l'identifiant ou le nom d'un serveur."
+    invalid_id: "Il semble que ce serveur n'existe pas"
+    not_registered: "Vous n'avez pas de clé API enregistrée dans ce serveur."
+
+  commands:
+    power:
+      power: 'Alimentation'
+      use_reactions: "Utilisez les réactions ci-dessous pour contrôler l'alimentation de ce serveur."
+      controlling_power: "Contrôler l'alimentation par {panel}"
+      state:
+        starting: 'Démarrage'
+        stopping: 'Arrêt'
+        running: "En cours d'exécution"
+        on: 'En ligne'
+        off: 'Hors ligne'
+      signal:
+        start:
+          success: 'Le signal de démarrage a été envoyé au serveur.'
+        stop:
+          success: "Le signal d'arrêt a été envoyé au serveur."
+        restart:
+          success: 'Le signal de redémarrage a été envoyé au serveur.'
+        kill:
+          warning:
+            - "Mettre fin à un serveur de manière inattendue peut l'endommager."
+            - 'Dites `confirmez` pour continuer ou `cancel` pour annuler cette action dans les 60 secondes.'
+          success: "Un signal d'arrêt a été envoyé au serveur."
+
+    register:
+      registering: 'Inscription'
+      already_registered: 'Vous avez déjà une clé API enregistrée dans ce serveur.'
+      private: "Pour garder votre clé API privée, l'enregistrement aura lieu en MP."
+      ask_for_key: "Veuillez m'envoyer votre clé API ou envoyez `cancel` pour annuler l'enregistrement."
+      dm_failed:
+        - "Je n'ai pas pu vous MP."
+        - 'Vos messages privés sont-ils activés ?'
+      registered: "Vous vous êtes enregistré auprès de SRVControl dans le serveur '{server}'."
+      invalid_key:
+        - 'Il semble que cette clé API soit invalide !'
+        - 'Le domaine de votre panel est-il correct ? [Cliquez ici pour vérifier.](https://app.srvcontrol.xyz/manage/{id})'
+      cancelled: "Vous avez annulé votre enregistrement auprès de SRVControl sur le serveur '{server}'."
+    send:
+      need_command: 'Veuillez fournir une commande à envoyer au serveur.'
+      command_sent: 'La commande a été envoyée au serveur avec succès.'
+      command_error: "Je n'ai pas pu envoyer la commande à votre serveur."
+    servers:
+      your_servers: 'Vos serveurs'
+      viewing_server: 'Visualisation du serveur {current} de {total} via {panel}'
+      cpu:
+        core: 'cœur'
+        cores: 'cœurs'
+      disk_space: 'Espace disque'
+      relation:
+        relation: 'Relation'
+        owner: 'Propriétaire'
+        subuser: 'Sous-utilisateur'
+      actions: 'Actions'
+      no_servers: 'Vous ne semblez pas avoir de serveurs.'
+    unregister:
+      server:
+        warning:
+          - "Cela supprimera votre clé API Pterodactyl de SRVControl **dans ce serveur** et vous ne pourrez plus exécuter aucune commande liée au contrôle ici à l'avenir, à moins de vous enregistrer à nouveau."
+          - 'Dites `confirm` pour continuer ou `cancel` pour annuler cette action dans les 60 secondes.'
+          - 'Pour supprimer vos clés API dans tous les serveurs, relancez cette commande en utilisant {command}.'
+        success: 'Vous avez retiré votre clé API de SRVControl dans ce serveur.'
+      global:
+        warning:
+          - "Cela supprimera vos clés API Pterodactyl de SRVControl **dans tous les serveurs** et vous ne pourrez plus exécuter aucune commande liée au contrôle à l'avenir, à moins de vous enregistrer à nouveau."
+          - 'Dites `confirm` pour continuer ou `cancel` pour annuler cette action dans les 60 secondes.'
+        success: 'Vous avez retiré avec succès toutes vos clés API de SRVControl.'
+      not_registered:
+        - "Vous n'avez pas de clé API enregistrée sur ce serveur."
+        - 'Si vous souhaitez supprimer toutes vos clés API de SRVControl, relancez cette commande en utilisant {command}.'

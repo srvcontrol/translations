@@ -49,7 +49,7 @@ messages:
       ask_for_key: 'Stuur a.u.b. uw API sleutel of stuur "cancel" om de registratie te annuleren.'
       dm_failed:
         - 'Ik kom je niet een DM sturen.'
-        - 'Heeft U uw DM's open staan?'
+        - "Heeft U uw DM's open staan?"
       registered: "U heeft sucessvol uw API sleutel geregistreerd in '{server}'."
       invalid_key:
         - 'Deze API sleutel klopt niet!'

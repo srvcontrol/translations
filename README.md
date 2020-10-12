@@ -1,2 +1,2 @@
-# Translations | v2
-Community provided translations for SRVControl. https://srvcontrol.xyz
+# Translations
+Community provided translations for [SRVControl](https://srvcontrol.xyz).

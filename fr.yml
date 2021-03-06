@@ -17,6 +17,7 @@ messages:
     missing_id: "Veuillez fournir l'identifiant ou le nom d'un serveur."
     invalid_id: "Il semble que ce serveur n'existe pas"
     not_registered: "Vous n'avez pas de clé API enregistrée dans ce serveur."
+    requested_by: 'Requested by'
 
   commands:
     power:

@@ -15,8 +15,9 @@ messages:
       time: 'U heeft niet binnen 60 seconden een geldig antwoord gegeven.'
 
     missing_id: 'Geef alstublieft het ID of de naam van de server op.'
-    invalid_id: "De server die U aan heeft gegeven bestaat niet."
-    not_registered: "U heeft geen API sleutel voor deze server ingesteld."
+    invalid_id: 'De server die U aan heeft gegeven bestaat niet.'
+    not_registered: 'U heeft geen API sleutel voor deze server ingesteld.'
+    requested_by: 'Requested by'
 
   commands:
     power:
@@ -71,19 +72,19 @@ messages:
         owner: 'Eigenaar'
         subuser: 'Co-Eigenaar'
       actions: 'Acties'
-      no_servers: "Het lijkt erop dat U geen servers bazit."
+      no_servers: 'Het lijkt erop dat U geen servers bazit.'
     unregister:
       server:
         warning:
-          - "Hiermee wordt uw Pterodactyl API sleutel verwijderd van SRVControl **op deze server** en kunt u hier in de toekomst geen besturingsgerelateerde opdrachten uitvoeren, tenzij u zich opnieuw registreert."
+          - 'Hiermee wordt uw Pterodactyl API sleutel verwijderd van SRVControl **op deze server** en kunt u hier in de toekomst geen besturingsgerelateerde opdrachten uitvoeren, tenzij u zich opnieuw registreert.'
           - 'Zeg `confirm` om door te gaan of `cancel` om deze actie binnen 60 seconden te annuleren.'
           - 'Om uw API sleutels op alle servers te verwijderen, voert u deze opdracht opnieuw uit met {command}.'
         success: 'U heeft uw API sleutel verwijderd.'
       global:
         warning:
-          - "Hierdoor worden uw Pterodactyl API sleutels verwijderd van SRVControl **op alle servers** en kunt u in de toekomst geen besturingsgerelateerde opdrachten uitvoeren, tenzij u zich opnieuw registreert."
+          - 'Hierdoor worden uw Pterodactyl API sleutels verwijderd van SRVControl **op alle servers** en kunt u in de toekomst geen besturingsgerelateerde opdrachten uitvoeren, tenzij u zich opnieuw registreert.'
           - 'Zeg `confirm` om door te gaan of `cancel` om deze actie binnen 60 seconden te annuleren.'
         success: 'U heeft al uw API sleutels van SRVControl verwijderd.'
       not_registered:
-        - "U heeft geen API sleutel in deze server geregistreerd."
-        - "Als u al uw API sleutels uit SRVControl wilt verwijderen, voert u deze opdracht opnieuw uit met {command}."
+        - 'U heeft geen API sleutel in deze server geregistreerd.'
+        - 'Als u al uw API sleutels uit SRVControl wilt verwijderen, voert u deze opdracht opnieuw uit met {command}.'
